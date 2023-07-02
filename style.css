@@ -15,15 +15,13 @@ h1
 {
     color: #A5B4FC;
     font-family: Montserrat;
-    font-size: 3.5em;
-    
+    font-size: 3.5em;    
 }
 
 p
 {
     font-family: Manrope;
     font-size: 1.1em;
-    
 }
 
 ul
@@ -45,11 +43,21 @@ body
 }
 
 .entete,
-.pied-de-page {
+{
   background-color: white;
 }
 
-.center {
-  background: linear-gradient(#8e86b5, #acaeed);
+.pied-de-page 
+{
+  background-color: white;
+  border-radius: 50px;
+}
+
+.center 
+{
   color: white;
+  background-color: skyblue;
+  border-right: 1px #8e86b5 solid;
+  border-bottom: 1px #8e86b5 solid;
+  padding: 10%;
 }
