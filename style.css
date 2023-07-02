@@ -6,12 +6,17 @@ a
     text-decoration: none;
 }
 
+a:hover
+{ 
+text-decoration: underline;
+}
+
 .important
 {
     color: #A5B4FC;
 }
 
-h1
+h1,h2
 {
     color: #A5B4FC;
     font-family: Montserrat;
@@ -38,13 +43,18 @@ div
 
 body 
 {
-    background-color: black; /* Le fond de la page sera noir */
+    background-color: rgb(22, 5, 70); /* Le fond de la page sera noir */
     color: white; /* Le texte de la page sera blanc */
 }
 
-.entete,
+.entete
 {
   background-color: white;
+}
+
+.entete img:hover
+{
+  opacity: 0.5;
 }
 
 .pied-de-page 
@@ -53,11 +63,19 @@ body
   border-radius: 50px;
 }
 
-.center 
+.pied-de-page img:hover
 {
-  color: white;
-  background-color: skyblue;
-  border-right: 1px #8e86b5 solid;
+  opacity: 0.5;
+}
+.cta 
+{
+    background-color: rgb(22, 5, 70);
+    border-right: 1px #8e86b5 solid;
   border-bottom: 1px #8e86b5 solid;
-  padding: 10%;
+  padding: 2%;
+}
+
+.important:hover 
+{
+background: linear-gradient(90deg, #696484,#8788BA );
 }
