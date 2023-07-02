@@ -9,6 +9,7 @@ a
 a:hover
 { 
 text-decoration: underline;
+
 }
 
 .important
@@ -78,4 +79,5 @@ body
 .important:hover 
 {
 background: linear-gradient(90deg, #696484,#8788BA );
+
 }
