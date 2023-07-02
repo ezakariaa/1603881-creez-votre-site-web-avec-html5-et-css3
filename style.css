@@ -18,15 +18,38 @@ h1
     font-size: 3.5em;
     
 }
+
 p
 {
     font-family: Manrope;
     font-size: 1.1em;
     
 }
+
 ul
 {
     font-family: Manrope;
     font-size: 1em;
     
+}
+
+div
+{
+    background-color: white;
+}
+
+body 
+{
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+}
+
+.entete,
+.pied-de-page {
+  background-color: white;
+}
+
+.center {
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
 }
