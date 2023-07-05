@@ -40,6 +40,13 @@ ul
 div
 {
     background-color: white;
+    padding: 80%;
+}
+
+span
+{
+    background-color: white;
+    
 }
 
 body 
@@ -51,6 +58,10 @@ body
 .entete
 {
   background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .entete img:hover
@@ -70,8 +81,8 @@ body
 }
 .cta 
 {
-    background-color: rgb(22, 5, 70);
-    border-right: 1px #8e86b5 solid;
+  background-color: rgb(22, 5, 70);
+  border-right: 1px #8e86b5 solid;
   border-bottom: 1px #8e86b5 solid;
   padding: 2%;
 }
@@ -81,3 +92,13 @@ body
 background: linear-gradient(90deg, #696484,#8788BA );
 
 }
+
+footer
+{
+  background-color: white;
+}
+carre-contenu
+{
+  padding: 80%;
+}
+
