@@ -2,21 +2,18 @@
   margin: 0;
 }
 
-header
-{
+header{
   background-color: white;
 }
 
-.entete
-{
+.entete{
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
 }
 
-.entete img:hover
-{
+.entete img:hover {
   opacity: 0.5;
 }
 
@@ -40,6 +37,7 @@ a
 a:hover
 { 
 text-decoration: underline;
+color: azure;
 }
 
 .introduction
@@ -67,10 +65,11 @@ text-decoration: underline;
   gap: 10px;
 }
 
+.column2 img { height: 300px;}
+
 .bouton
 {
-  background-color: white;
-
+background-color: white;
 }
 
 .important
@@ -110,63 +109,29 @@ body
     color: white; /* Le texte de la page sera blanc */
 }
 
-
-.cta
-{
-  background-color: rgb(22, 5, 70);
-  border-right: 1px #8e86b5 solid;
-  border-bottom: 1px #8e86b5 solid;
-  padding: 2%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 15px;
-}
-
-.a-propos
-{
-  background-color: rgb(22, 5, 70);
-  border-right: 1px #8e86b5 solid;
-  border-bottom: 1px #8e86b5 solid;
-  padding: 2%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: space-between;
-  gap: 15px;
-}
-
 .galerie
 {
   background-color: white;
-  border-right: 1px #8e86b5 solid;
-  border-bottom: 1px #8e86b5 solid;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  gap: 30px;
+  text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
-.row1
+.galerie-photos
 {
-width: 80%;
-justify-content: space-between;
-gap: 30px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 100px 150px 200px;
+  gap: 10px;
+  justify-content: center;
+
 }
+
+.image-intro
+{
+  height: 150px;
+}
+
 
 .important:hover 
 {
@@ -186,7 +151,7 @@ footer
 }
 
 
-footer
+.pied-de-page
 {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -194,8 +159,4 @@ footer
   padding-right: 50px;
 }
 
-carre-contenu
-{
-  padding: 80%;
-}
 
